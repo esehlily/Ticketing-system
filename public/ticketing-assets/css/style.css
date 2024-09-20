@@ -1,0 +1,76 @@
+.blue-border{
+    border-right: 1px solid #B1B1B1;
+    height: 100vh;
+    padding: 20px 10px 0px 10px;
+}
+.icon-s {
+    font-size: 20px;
+    padding: 16px 20px 16px 0px;
+}
+.dashboard-img{
+    width: 120px;
+    margin: 0 auto;
+}
+.icon-a{
+    text-decoration: none;
+    color: #3F3F3F;
+}
+.icon-p{
+    color: #9E9E9E;
+}
+.icon-s:hover {
+    color: white;
+    border: 1px solid #306EF9;
+    border-radius: 10px;
+    padding: 15px 20px 15px 0px;
+    background-color: #306EF9;
+    .icon-a{
+        color: white !important;
+    }
+    .icon-p{
+        color: white !important;
+    }
+}
+.ticket-btn{
+    border: 1px solid #306EF9;
+    background-color: #306EF9;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 15px;
+}
+.texty{
+    white-space: nowrap;
+}
+.profiley{
+    margin-top: 125px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+    }
+}
+
+.cardd{
+    gap: 2rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .dashboard-img{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 0px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .dashboard-img{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 0px;
+    }
+}
+

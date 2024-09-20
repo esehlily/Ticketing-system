@@ -1,0 +1,65 @@
+.forgot a {
+    text-decoration: none;
+}
+
+input:focus{
+    border: 1px solid #306EF9 !important;
+    outline: #306EF9 !important
+}
+
+input {
+    border: 1px solid #306EF9 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.login-part{
+    display: flex;
+    justify-content: center;
+}
+
+.first-txt{
+    color: #306EF9;
+}
+
+.login-btn{
+    width: 424px;
+    height: 40px;
+    background: #306EF9;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 14px;
+}
+
+.social-icons{
+    border: 1px solid #306EF9;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+}
+.social-icons:hover{
+    background-color: #dbdfea;
+    border: 1px solid #306EF9;
+    transition: 0.5s
+}
+
+.top-eye{
+    position: absolute !important;
+    right: 10px;
+    top: 38px;
+}
+
+
+@media (min-width: 768px) {
+   input{
+    width: 432px !important;
+   }
+   .pass-in{
+       width: 350px !important;
+   }
+
+}
